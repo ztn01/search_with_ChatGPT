@@ -28,7 +28,7 @@ openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
 serper_api_key = st.sidebar.text_input("serper API Key", type="password")
 
-if input := st.text_input("输入搜索词"):
+if input := st.text_input("Please enter a question"):
 
 
     if not openai_api_key:
