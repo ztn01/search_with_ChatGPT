@@ -1,0 +1,4 @@
+wikipedia
+langchain
+bs4
+OpenAI
